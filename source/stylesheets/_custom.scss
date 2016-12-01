@@ -1,1 +1,10 @@
 // PUT CUSTOM SCSS / SASS HERE
+main{
+  background-image: url('https://s3.amazonaws.com/myfangate.com/rdunwrapped/backgroundimage.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.full-w{
+  width: 100%;
+}
