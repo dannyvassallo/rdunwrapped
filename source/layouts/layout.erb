@@ -15,12 +15,10 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial 'layouts/partials/navbar' %>
     <main>
       <!-- CONTENT SHOWS HERE -->
       <%= yield %>
     </main>
-    <%= partial 'layouts/partials/footer' %>
     <%= javascript_include_tag :all %>
   </body>
 </html>
